@@ -1,70 +1,149 @@
-# Getting Started with Create React App
+# Java Guides React Tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu repo, React öğrenme sürecinde temel component yapısını, props kullanımını, event handling mantığını ve conditional rendering örneklerini içeren basit bir React eğitim projesidir.
 
-## Available Scripts
+Proje, React başlangıç konularını uygulamalı olarak görmek ve farklı component örnekleri üzerinden React mantığını pekiştirmek amacıyla hazırlanmıştır.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Proje İçeriği
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Bu projede React'in temel konularına odaklanılmıştır:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Component oluşturma
+- Component import/export kullanımı
+- Props ile veri gönderme
+- Object verilerini componentlere aktarma
+- Event handling
+- Conditional rendering
+- Basit kullanıcı, öğrenci ve çalışan componentleri
+- React proje klasör yapısını anlama
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Kullanılan Teknolojiler
 
-### `npm run build`
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Create React App
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Proje Dosya Yapısı
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+Java_Guides-React-Tutorial/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── ConditionRendering.js
+│   │   ├── Employee.js
+│   │   ├── EventHandling.js
+│   │   ├── Greeting.js
+│   │   ├── HelloWorld.js
+│   │   ├── MyComponent.js
+│   │   ├── Student.js
+│   │   ├── User.js
+│   │   └── Welcome.js
+│   │
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+│
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Component Açıklamaları
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Component | Açıklama |
+|---|---|
+| `HelloWorld.js` | Basit component yapısını göstermek için kullanılır. |
+| `Welcome.js` | Karşılama componenti örneğidir. |
+| `Greeting.js` | Props veya temel veri gösterimi mantığı için kullanılır. |
+| `MyComponent.js` | Birden fazla component export/import kullanımını gösterir. |
+| `Student.js` | Öğrenci verilerinin component içinde gösterilmesini sağlar. |
+| `Employee.js` | Çalışan bilgilerini göstermek için oluşturulmuş örnek componenttir. |
+| `User.js` | Kullanıcı bilgilerini component yapısıyla göstermeyi amaçlar. |
+| `EventHandling.js` | React'te olay yönetimi mantığını gösterir. |
+| `ConditionRendering.js` | Koşullu render işlemini örnekler. |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Kurulum
 
-## Learn More
+Projeyi bilgisayarınıza klonlayın:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/elifsuperisan/Java_Guides-React-Tutorial.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Proje klasörüne girin:
 
-### Code Splitting
+```bash
+cd Java_Guides-React-Tutorial
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Gerekli paketleri yükleyin:
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Çalıştırma
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Projeyi geliştirme modunda başlatmak için:
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Tarayıcıda şu adres açılır:
 
-### Deployment
+```text
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Build Alma
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projeyi production için derlemek isterseniz:
+
+```bash
+npm run build
+```
+
+Bu komut, optimize edilmiş üretim dosyalarını `build/` klasörü altında oluşturur.
+
+---
+
+## Öğrenilen Konular
+
+Bu proje ile aşağıdaki React konuları pratik edilmiştir:
+
+- React component mantığı
+- JSX kullanımı
+- Props yapısı
+- Componentler arası veri aktarımı
+- Event handling
+- Conditional rendering
+- Modüler dosya yapısı
+- React uygulamasını çalıştırma ve build alma
+
+---
+
+## Not
+
+Bu proje, React temellerini öğrenmek amacıyla hazırlanmış eğitim odaklı bir çalışmadır. Bu nedenle proje içinde farklı component örnekleri ayrı dosyalar halinde tutulmuştur.
